@@ -1,0 +1,93 @@
+:root {
+  --hsl-green: hsl(75, 94%, 57%);
+  --hsl-white: hsl(0, 0%, 100%);
+  --hsl-grey700: hsl(0, 0%, 20%);
+  --hsl-grey800: hsl(0, 0%, 12%);
+  --hsl-grey900: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--hsl-grey900);
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.card-positioning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.card {
+  background-color: var(--hsl-grey800);
+  border-radius: 0.6rem;
+  height: 720px;
+  width: 450px;
+}
+
+.img-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+img {
+  border-radius: 5em;
+  width: 110px;
+}
+
+h1 {
+  color: var(--hsl-white);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: var(--hsl-green);
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+p {
+  color: var(--hsl-white);
+  font-weight: 300;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.link {
+  background-color: var(--hsl-grey700);
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--hsl-white);
+  cursor: pointer;
+  border-radius: 0.6rem;
+  border: none;
+  font-size: 1rem;
+  padding: 1.1rem 0px;
+  text-align: center;
+  width: 85%;
+}
+
+.link:hover {
+  color: var(--hsl-grey900);
+  background-color: var(--hsl-green);
+}
