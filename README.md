@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/cosmingradinariu/frontend-mentor-social-links-profile-challenge)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://cosmingradinariu.github.io/frontend-mentor-social-links-profile-challenge/)
 
 ## My process
 
